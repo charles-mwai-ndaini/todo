@@ -5,7 +5,7 @@ const taskList = document.getElementById("taskList");
 addTaskButton.addEventListener("click", function(e) {
     e.preventDefault();
     if (taskInput.value === "") {
-        alert("You must write something!");
+        alert("You must write something my BOYY!");
     } else {
         const newTask = document.createElement("li");
         const editInnerText = taskInput.value;
